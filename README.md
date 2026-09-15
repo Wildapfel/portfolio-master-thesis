@@ -1,4 +1,4 @@
-# Master's Thesis Summary
+## Master's Thesis Summary
 
 A short walkthrough of my Master's thesis: applying Integrated Gradients to Binary-CNNs for motif discovery in DAP-seq data. I'm not explaing the exact procedure.  
 
