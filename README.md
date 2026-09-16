@@ -44,9 +44,9 @@ $$
 <div align="center">
     <img src="figures/Mischdatensatz_auc_training.png" alt="" width="500" height=450/>
 </div>
-
-*Figure 1: An example of the AUC validation using validation data sets. Red square highlights the best performing experiment.*
-
+<div align="center">
+    <em>Figure 1: An example of the AUC validation using validation data sets. Red square highlights the best performing experiment.</em>
+</div>
 
 ### Kernels to Motifs
 
@@ -56,8 +56,9 @@ $$
 <div align="center">
     <img src="figures/Mischdatensatz_motifs.png" alt="" width="500" height=450/>
 </div>
-
-*Figure 2: Motif collection of an experiment.*
+<div align="center">
+    <em>Figure 2: Motif collection of an experiment.</em>
+</div>
 
 ### Motif Positions
 
@@ -70,5 +71,6 @@ $$
 <div align="center">
     <img src="figures/Mischdatensatz_product_02.png" alt="" width="500" height=350/>
 </div>
-
-*Figure 3: Motif position throughout the full dataset.*
+<div align="center">
+    <em>Figure 3: Motif position throughout the full dataset.</em>
+</div>
