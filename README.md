@@ -1,9 +1,13 @@
+This is a link in Markdown: [Cockett, 2022](https://doi.org/10.5281/zenodo.6476040).
+
+
+
 # Methods for Interpreting Neuronal Networks in Sequence Data Analysis - *Thesis Summary*
 
 A short walkthrough of my Master's thesis: applying Integrated Gradients to Binary-CNNs for motif discovery in DAP-seq data. I'm not explaing the exact procedure.  
 
-- **Code:** Not publicly available
-- **Data:** Provided by supervisor; not publicly shareable
+- **Code:** Not publicly available.
+- **Data:** Provided by supervisor; not publicly shareable.
 
 ## Abstract
 
