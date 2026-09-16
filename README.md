@@ -1,7 +1,3 @@
-This is a link in Markdown: [Cockett, 2022](https://doi.org/10.5281/zenodo.6476040).
-
-
-
 # Methods for Interpreting Neuronal Networks in Sequence Data Analysis - *Thesis Summary*
 
 A short walkthrough of my Master's thesis: applying Integrated Gradients to Binary-CNNs for motif discovery in DAP-seq data. I'm not explaing the exact procedure.  
@@ -22,11 +18,11 @@ Integrated Gradients (an XAI method) were applied to Binary-CNNs to detect motif
 ### Integrated Gradients
 
 - Integrated Gradients (IG) [IG] allowed me to assign attribute values to the input data, for their importance of a correct prediction
-- Official Implementation: https://keras.io/examples/vision/integrated_gradients/
+- Official Implementation: [https://keras.io/examples/vision/integrated_gradients/](https://keras.io/examples/vision/integrated_gradients/)
 - Formally:
 
 $$
-IG_{i}(x) = (x_{i} - x'_{i})\times\int_{\alpha = 0}^{1}\frac{\partial F(x'+\alpha(x - x'))}{\partial x_{i}}d\alpha
+IG_{i}(x) = (x_{i} - x'_{i})\times\int_{\alpha = 0}^{1}\frac{\partial F(x'+\alpha(x - x^{,}))}{\partial x_{i}}d\alpha
 $$
 
 ### Model Evaluation
