@@ -42,20 +42,20 @@ $$
 - Fig. 1 demonstrates that certain activation functions were not as applicable as other functions, hence I evaluated only the best performer (highlighted in red)
 
 <div align="center">
-    <img src="figures/Mischdatensatz_auc_training.png" alt="" width="500" ali/>
+    <img src="figures/Mischdatensatz_auc_training.png" alt="" width="500" height=450/>
 </div>
 
-
-<!-- ![AUC validation]() -->
-
 *Figure 1: An example of the AUC validation using validation data sets. Red square highlights the best performing experiment.*
+
 
 ### Kernels to Motifs
 
 - Fig. 2 shows an example of such a motif collection that the model learned
 - For example: TATA-boxes (Motif 5), CATGCA (Motif 10), ...
 
-![Motif collection](figures/Mischdatensatz_motifs.png)
+<div align="center">
+    <img src="figures/Mischdatensatz_motifs.png" alt="" width="500" height=450/>
+</div>
 
 *Figure 2: Motif collection of an experiment.*
 
@@ -64,7 +64,11 @@ $$
 - Fig. 3 visualizes when our procedure successfully found the motif positions
 - Clearly visible in the 3rd row, first two columns
 
-![Motif positions 1](figures/Mischdatensatz_product_01.png)
-![Motif positions 2](figures/Mischdatensatz_product_02.png)
+<div align="center">
+    <img src="figures/Mischdatensatz_product_01.png" alt="" width="500" height=350/>
+</div>
+<div align="center">
+    <img src="figures/Mischdatensatz_product_02.png" alt="" width="500" height=350/>
+</div>
 
 *Figure 3: Motif position throughout the full dataset.*
