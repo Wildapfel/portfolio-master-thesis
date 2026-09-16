@@ -16,7 +16,7 @@ Integrated Gradients (an XAI method) were applied to Binary-CNNs to detect motif
 ## Introduction
 
 ### DeepBind (Model)
-- I rebuilt [DeepBind's](doi:10.1038/nbt.3300) architecture using TensorFlow and Keras [tensorflow2015-whitepaper] but applied certain adaptations like different preprocessing and a reverse complement aware computation
+- I rebuilt [DeepBind's](https://doi.org/10.1038/nbt.3300) architecture using TensorFlow and Keras [tensorflow2015-whitepaper] but applied certain adaptations like different preprocessing and a reverse complement aware computation
 - This architecture allowed me to extract the first convolutional layer as a collection of motifs
 
 ### Integrated Gradients
