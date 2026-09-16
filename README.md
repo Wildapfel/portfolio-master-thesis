@@ -1,6 +1,6 @@
 # Methods for Interpreting Neuronal Networks in Sequence Data Analysis - *Thesis Summary*
 
-A short walkthrough of my Master's thesis: applying Integrated Gradients to Binary-CNNs for motif discovery in DAP-seq data. I'm not explaing the exact procedure.  
+A short walkthrough of my Master's thesis: applying Integrated Gradients to Binary-CNNs for motif discovery in DAP-seq data. I'm not explaing the exact procedure.
 
 - **Code:** Not publicly available.
 - **Data:** Provided by supervisor; not publicly shareable.
@@ -12,6 +12,7 @@ Integrated Gradients (an XAI method) were applied to Binary-CNNs to detect motif
 ## Introduction
 
 ### DeepBind (Model)
+
 - I rebuilt [DeepBind's](https://doi.org/10.1038/nbt.3300) architecture using [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io) but applied certain adaptations like different preprocessing and a reverse complement aware computation
 - This architecture allowed me to extract the first convolutional layer as a collection of motifs
 
@@ -22,7 +23,7 @@ Integrated Gradients (an XAI method) were applied to Binary-CNNs to detect motif
 - Formally:
 
 $$
-IG_{i}(x) = (x_{i} - x'_{i})\times\int_{\alpha = 0}^{1}\frac{\partial F(x'+\alpha(x - x^{,}))}{\partial x_{i}}d\alpha
+IG_{i}(x) = (x_{i} - x\prime_{i})\times\int_{\alpha = 0}^{1}\frac{\partial F(x\prime+\alpha(x - x\prime))}{\partial x_{i}}d\alpha
 $$
 
 ### Model Evaluation
