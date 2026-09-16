@@ -41,9 +41,9 @@ $$
 
 - Fig. 1 demonstrates that certain activation functions were not as applicable as other functions, hence I evaluated only the best performer (highlighted in red)
 
-<center>
+<div align="center">
     <img src="figures/Mischdatensatz_auc_training.png" alt="" width="500" ali/>
-</center>
+</div>
 
 
 <!-- ![AUC validation]() -->
