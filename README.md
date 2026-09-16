@@ -7,7 +7,7 @@ A short walkthrough of my Master's thesis: applying Integrated Gradients to Bina
 
 ## Abstract
 
-Integrated Gradients (an XAI method) were applied to Binary-CNNs to detect motif positions in sequential DAP-seq data, without relying on statistical models such as Hidden Markov Models. While the exact procedure is not reproduced here, results demonstrate that motif positions can be identified even when multiple motifs are present. Analysis was performed on sequences cropped around known motifs from *Arabidopsis thaliana*, provided by the supervisor following peak calling.
+[Integrated Gradients](https://doi.org/10.48550/arXiv.1703.01365) (an XAI method) were applied to Binary-CNNs to detect motif positions in sequential DAP-seq data, without relying on statistical models such as Hidden Markov Models. While the exact procedure is not reproduced here, results demonstrate that motif positions can be identified even when multiple motifs are present. Analysis was performed on sequences cropped around known motifs from *Arabidopsis thaliana*, provided by the supervisor following peak calling.
 
 ## Introduction
 
@@ -18,7 +18,7 @@ Integrated Gradients (an XAI method) were applied to Binary-CNNs to detect motif
 
 ### Integrated Gradients
 
-- Integrated Gradients (IG) [IG] allowed me to assign attribute values to the input data, for their importance of a correct prediction
+- [Integrated Gradients (IG)](https://doi.org/10.48550/arXiv.1703.01365) allowed me to assign attribute values to the input data, for their importance of a correct prediction
 - Official Implementation: [https://keras.io/examples/vision/integrated_gradients/](https://keras.io/examples/vision/integrated_gradients/)
 - Formally:
 
@@ -41,7 +41,12 @@ $$
 
 - Fig. 1 demonstrates that certain activation functions were not as applicable as other functions, hence I evaluated only the best performer (highlighted in red)
 
-![AUC validation](figures/Mischdatensatz_auc_training.png)
+<center>
+    <img src="figures/Mischdatensatz_auc_training.png" alt="" width="500" ali/>
+</center>
+
+
+<!-- ![AUC validation]() -->
 
 *Figure 1: An example of the AUC validation using validation data sets. Red square highlights the best performing experiment.*
 
